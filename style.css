@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  .container .logo{
+      font-family: 'Pacifico',cursive;
+  }
+  .container h1 a{
+      text-decoration: none;
+  }
+  .container input[type=text]{
+      width: 200px;
+      font-weight: bolder;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      font-size: 22px;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #fff;
+      color: #000;
+      float: right;
+      background-image: url('images.png');
+      background-repeat: no-repeat;
+      background-position: 10px 10px;      
+      padding: 10px 20px 10px 40px;
+  }
+ 
+    #myNavbar ul li{
+       padding: 6px;
+       font-size: 20px;
+       padding-left: 140px;
+    }
+    #headline-container{
+        background-color:rgb(154, 220, 223);
+        height: 40vh;
+    }
+    .container .headlines{
+      text-align: center;
+    }
+    .container .link{
+        font-size: 20px;
+    }
+    .container .link:hover{
+        color: red;
+    }
+
+    .content{
+        display: inline-flex;
+    }
+    
+.section-1{
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.section-1 #politics{
+    width:100%;
+    padding: 10px;
+    background-color: rgb(233, 187, 127);
+}
+.page-1 h3{
+    text-align: left;
+}
+.page-1 h3 p{
+    text-align: left;
+}
+.section-2{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.section-2 #sports{
+    padding: 10px;
+    background-color: rgb(233, 187, 127);
+}
+@media only screen and (max-width:772px){
+    #myNavbar ul li{
+        text-align: left;     
+    } 
+    
+}
